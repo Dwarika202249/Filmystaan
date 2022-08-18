@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik+Iso&display=swap');
+
+.header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #001641;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 5vw;
+    padding: 15px 0;
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    z-index: 100;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        padding-top: 15px;
+        font-size: 6.4vw;
+    }
+}
