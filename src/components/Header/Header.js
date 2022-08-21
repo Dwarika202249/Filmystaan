@@ -2,7 +2,7 @@ import './header.css'
 
 const Header = () => {
   return (
-    <span className='header'>Filmystaan</span>
+    <span onClick={() => window.scroll(0,0)} className='header'>Filmystaan</span>
   )
 }
 

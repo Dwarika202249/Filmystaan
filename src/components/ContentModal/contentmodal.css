@@ -1,0 +1,27 @@
+.imgPoster {
+    margin-right: 40px;
+}
+
+@media (max-width: 700px) {
+    .imgPoster {
+        width: 60%;
+    }
+
+    .trailerText {
+        font-size: 10px !important;
+    }
+
+    .movieTitle {
+        font-size: 18px !important;
+    }
+    
+    .movieTag {
+        font-size: 16px !important;
+
+    }
+    
+    .movieDesc {
+        font-size: 13px !important;
+
+    }
+}
